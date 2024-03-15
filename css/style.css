@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "arka";
+    src: url(../font/RETROTECH.ttf);
+}
+
+.bodyPrincipal{
+    background-image: url(../img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "arka";
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 52px;
+}
+
+.tabla{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: rgb(237, 175, 5) 5px solid;
+    border-style: groove;
+    background-color: rgb(62, 59, 59);
+    border-radius: 10px;
+}
+
+#negro{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: black;
+    color: white;
+}
+
+#gris{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: rgb(62, 59, 59);
+}
+#bolita{
+    width: 40px;
+    height: 40px;
+    border-color: white;
+    border-width: 5px;
+    border-style: dotted;
+    border-bottom: white;
+    border-block-start:white;
+   
+}
+
+#rojo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: rgb(239, 5, 5);
+}
+
+#amarillo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: rgb(239, 216, 5);
+}
+
+#azul{
+    width: 40px;
+    height: 40px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: blue;
+}
+
+#morado{
+    width: 40px;
+    height: 40px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: violet;
+}
+
+#verde{
+    width: 40px;
+    height: 40px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset grey;
+    background-color: green;
+}
+
+#sincelda{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(62, 59, 59);
+}
+
+#up{
+    color: red;
+    font-size: 40px;
+}
+
+#down{
+    color: white;
+    font-size: 32px;
+}
+
+#cursor{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    border-radius: 2px;
+    border: 1px outset  rgb(62, 59, 59);
+    background-color: rgb(62, 59, 59);
+    background-image: url(../img/barra.png);
+    background-size: cover;
+    background-position: center;
+    object-position: 2px 0px;
+}
